@@ -1,0 +1,13 @@
+# ninja log v5
+19	846	7064815224278785	CMakeFiles/ejercicioHerencia.dir/Punto.cpp.obj	973996bdf81ad58e
+7	885	7064815275443150	CMakeFiles/ejercicioHerencia.dir/main.cpp.obj	3c6a1f185b66a3d3
+5	1560	7064815717329604	CMakeFiles/ejercicioHerencia.dir/Figura.cpp.obj	147c97b6954333ae
+3	466	7064816612948371	CMakeFiles/ejercicioHerencia.dir/main.cpp.obj	3c6a1f185b66a3d3
+12	760	7064817141466191	CMakeFiles/ejercicioHerencia.dir/Punto.cpp.obj	973996bdf81ad58e
+5	762	7064817141476163	CMakeFiles/ejercicioHerencia.dir/main.cpp.obj	3c6a1f185b66a3d3
+18	2053	7064817154551085	CMakeFiles/ejercicioHerencia.dir/Figura.cpp.obj	147c97b6954333ae
+2054	2211	7064817156067029	ejercicioHerencia.exe	182f2991b6e7b674
+4	480	7064817266164875	CMakeFiles/ejercicioHerencia.dir/main.cpp.obj	3c6a1f185b66a3d3
+481	627	7064817267581086	ejercicioHerencia.exe	182f2991b6e7b674
+3	296	7064817551831403	CMakeFiles/ejercicioHerencia.dir/main.cpp.obj	3c6a1f185b66a3d3
+297	387	7064817552709055	ejercicioHerencia.exe	182f2991b6e7b674

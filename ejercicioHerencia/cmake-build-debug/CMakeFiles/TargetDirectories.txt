@@ -1,0 +1,3 @@
+C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/ejercicioHerencia/cmake-build-debug/CMakeFiles/ejercicioHerencia.dir
+C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/ejercicioHerencia/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/ejercicioHerencia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
