@@ -6,7 +6,7 @@
 //
 
 #include <iostream>
-#include <bits/stdc++.h>
+#include <list>
 #include "Punto.h"
 using namespace std;
 #ifndef EJERCICIOHERENCIA_FIGURA_H

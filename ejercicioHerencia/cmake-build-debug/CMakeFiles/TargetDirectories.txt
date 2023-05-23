@@ -1,3 +1,3 @@
-C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/ejercicioHerencia/cmake-build-debug/CMakeFiles/ejercicioHerencia.dir
-C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/ejercicioHerencia/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/ejercicioHerencia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/desireeespinosa/Library/CloudStorage/OneDrive-Personal/Escuela(mac)/Semestre 2/TC1030/En clase/Ejercicio Herencia/Ejercicio-Herencia/ejercicioHerencia/cmake-build-debug/CMakeFiles/ejercicioHerencia.dir
+/Users/desireeespinosa/Library/CloudStorage/OneDrive-Personal/Escuela(mac)/Semestre 2/TC1030/En clase/Ejercicio Herencia/Ejercicio-Herencia/ejercicioHerencia/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/desireeespinosa/Library/CloudStorage/OneDrive-Personal/Escuela(mac)/Semestre 2/TC1030/En clase/Ejercicio Herencia/Ejercicio-Herencia/ejercicioHerencia/cmake-build-debug/CMakeFiles/rebuild_cache.dir

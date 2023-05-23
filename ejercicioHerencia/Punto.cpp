@@ -7,8 +7,8 @@
 
 #include <iostream>
 #include "Punto.h"
+using  namespace std;
 
-void Punto::imprimePunto() {
-    cout << "Valor de x: " << x << "\n";
-    cout << "Valor de y: " << y << "\n";
+void Punto::imprimePunto() const {
+    cout << "Coordenadas del punto: (" << x << ", " << y << ")" << endl;
 }
