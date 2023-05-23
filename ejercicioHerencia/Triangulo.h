@@ -15,10 +15,11 @@ class Triangulo:public Figura{
 public:
     Triangulo() = default;
     Triangulo(const Triangulo &triangulo) {};
-    ~Triangulo();
-    void calculaArea();
-    void calculaPerimetro();
-    void imprime();
+    Triangulo(const string& nombre, const list<Punto>& puntos) : Figura(3, nombre, puntos) {};
+    virtual ~Triangulo();
+    double calculaArea() const override;
+    double calculaPerimetro() const override;
+    void imprime() const override;
 };
 
 

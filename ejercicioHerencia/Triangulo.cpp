@@ -6,17 +6,18 @@
 //
 
 #include <iostream>
+#include "Figura.h"
 #include "Triangulo.h"
 using namespace std;
 
-void Triangulo::calculaArea() {
+double Triangulo::calculaArea() const {
     //
 }
 
-void Triangulo::calculaPerimetro() {
+double Triangulo::calculaPerimetro() const {
     //
 }
 
-void Triangulo::imprime() {
-
+void Triangulo::imprime() const {
+    //
 }
