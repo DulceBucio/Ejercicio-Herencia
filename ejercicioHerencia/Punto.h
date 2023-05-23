@@ -20,8 +20,8 @@ public:
     Punto(double xCoord, double yCoord) : x(xCoord), y(yCoord) {}
     Punto(double xyCoord) : x(xyCoord), y(xyCoord) {}
     // Setters y Getters
-    const double &getX() {return x;}
-    const double &getY() {return y;}
+    const double& getX() const { return x; }
+    const double& getY() const { return y; }
     void setX(const double &x) { this->x = x; }
     void setY(const double &y) { this->y = y; }
     // Método

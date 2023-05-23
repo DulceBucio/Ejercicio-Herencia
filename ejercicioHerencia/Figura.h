@@ -28,14 +28,14 @@ public:
 
     ~Figura() {};
 
-    int getNumPuntos() { return numPuntos; }
-    string getNombre() { return nombre; }
-    list<Punto> getPuntos() { return puntos; }
+    int getNumPuntos() const { return numPuntos; }
+    string getNombre() const { return nombre; }
+    list<Punto> getPuntos() const { return puntos; }
 
     void setNumPuntos(const int &numPuntos) { this->numPuntos = numPuntos; }
     void setNombre(const string &nombre) { this->nombre = nombre; }
     void setPuntos(const list<Punto> &puntos) { this->puntos = puntos; }
-    void imprimeFigura();
+    void imprimeFigura() const;
 };
 
 
