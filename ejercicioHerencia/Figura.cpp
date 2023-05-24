@@ -11,7 +11,7 @@
 #include <list>
 #include <algorithm>
 
-
+// Método para imprimir los atributos de la figura, con los puntos en orden descendente
 void Figura::imprimeFigura() const { // Comparador lambda, toma dos puntos 'p1' y 'p2' como parámetros y compara sus coordenadas x e y para determinar el orden
     // Si el valor de x de p1 es > que el de p2, se considera que p1 es menor y se coloca antes en la lista
     // Si el valor de x de p1 es = al de p2, se compara el valor de y. Si el valor de y de p1 es > que el de p2, se considera

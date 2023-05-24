@@ -10,7 +10,7 @@
 #include "Punto.h"
 using  namespace std;
 
-
+// Método
 void Punto::imprimePunto() const {
     cout << "Coordenadas del punto: (" << x << ", " << y << ")" << endl;
 }

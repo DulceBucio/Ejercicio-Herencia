@@ -10,7 +10,7 @@
 #include <iostream>
 using  namespace std;
 
-
+// Clase Punto, la cual tiene de atributos x y y con el objetivo de usar puntos del plano cartesiano
 class Punto {
     double x, y;
 public:
