@@ -38,9 +38,6 @@ public:
     void setPuntos(const list<Punto> &puntos) { this->puntos = puntos; }
     void imprimeFigura() const;
 
-    virtual double calculaPerimetro() const = 0;
-    virtual double calculaArea() const = 0;
-    virtual void imprime() const;
 };
 
 

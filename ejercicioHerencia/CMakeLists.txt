@@ -3,4 +3,4 @@ project(ejercicioHerencia)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ejercicioHerencia main.cpp Figura.cpp Punto.cpp)
+add_executable(ejercicioHerencia main.cpp Figura.cpp Punto.cpp Triangulo.cpp)

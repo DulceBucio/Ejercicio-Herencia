@@ -12,32 +12,17 @@
 using namespace std;
 
 
-double Triangulo::calculaPerimetro() const {
-    return lado1 + lado2 + lado3;
+double Triangulo::calculaPerimetro() {
+
 }
 
-double Triangulo::calculaArea() const {
-    double s = calculaPerimetro() / 2;  // Semiperímetro
-    return sqrt(s * (s - lado1) * (s - lado2) * (s - lado3));  // Fórmula de Herón
+double Triangulo::calculaArea(){
+
 }
 
-void Triangulo::imprime() const {
-    Figura::imprime();
+void Triangulo::imprime(){
+    imprimeFigura();
     cout << "Triángulo" << "\n";
-    cout << "Lados: " << lado1 << ", " << lado2 << ", " << lado3 << "\n";
     cout << "Perímetro: " << calculaPerimetro() << "\n";
-    cout << "Área: " << calculaArea() << endl;
+    cout << "Área: " << calculaArea() << "\n";
 }
-
-
-//double Triangulo::calculaArea() const {
-
-//}
-
-//double Triangulo::calculaPerimetro() const {
-    //
-//}
-
-//void Triangulo::imprime() const {
-    //
-//}

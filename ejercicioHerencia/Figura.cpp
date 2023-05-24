@@ -11,7 +11,6 @@
 #include <list>
 #include <algorithm>
 
-//Figura::~Figura() {}
 
 void Figura::imprimeFigura() const {
     list<Punto> puntosOrdenados(puntos);
@@ -31,11 +30,3 @@ void Figura::imprimeFigura() const {
     }
 }
 
-//void Figura::imprimeFigura(){
-    //cout << "Número de puntos: " << numPuntos << "\n";
-    //cout << "Nombre de la figura: " << nombre << "\n";
-    //puntos.sort(greater<Punto>());
-
-    //for (const Punto& i: puntos) {
-    //    cout << i << "\n";
-    //}

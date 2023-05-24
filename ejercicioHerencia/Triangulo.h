@@ -12,17 +12,15 @@ using namespace std;
 #define EJERCICIOHERENCIA_TRIANGULO_H
 
 class Triangulo: public Figura{
-    double lado1, lado2, lado3;
+
 public:
     Triangulo() = default;
     Triangulo(const Triangulo &triangulo) {};
-    //Triangulo(const string& nombre, const list<Punto>& puntos) : Figura(3, nombre, puntos) {};
-    Triangulo(const string& nombre, const list<Punto>& puntos, double lado1, double lado2, double lado3)
-            : Figura(3, nombre, puntos), lado1(lado1), lado2(lado2), lado3(lado3) {}
-    virtual ~Triangulo();
-    double calculaArea() const override;
-    double calculaPerimetro() const override;
-    void imprime() const override;
+    Triangulo(const string& nombre, const list<Punto>& puntos) : Figura(3, nombre, puntos) {};
+    Triangulo(const Figura &figura): Figura(figura.getNumPuntos(), figura.getNombre(), figura.getPuntos()) {};
+    double calculaArea() ;
+    double calculaPerimetro();
+    void imprime();
 };
 
 
