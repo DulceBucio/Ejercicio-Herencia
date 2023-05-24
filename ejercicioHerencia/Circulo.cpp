@@ -40,7 +40,7 @@ double Circulo::calculaArea() { // La función calcula el área utilizando el pu
 
 void Circulo::imprime() {
     imprimeFigura();
-    cout << "Círculo" << "\n";
-    cout << "Perímetro: " << calculaPerimetro() << "\n";
-    cout << "Área: " << calculaArea() << "\n";
+    cout << "Circulo" << "\n";
+    cout << "Perimetro: " << calculaPerimetro() << "\n";
+    cout << "Area: " << calculaArea() << "\n";
 }

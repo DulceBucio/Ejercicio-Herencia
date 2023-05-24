@@ -22,7 +22,7 @@ void Figura::imprimeFigura() const { // Comparador lambda, toma dos puntos 'p1' 
     });
 
     cout << "Nombre: " << nombre << endl;
-    cout << "Número de puntos: " << numPuntos << endl;
+    cout << "Numero de puntos: " << numPuntos << endl;
     cout << "Puntos (ordenados descendentemente):" << endl;
     for (const auto& punto : puntosOrdenados) { // itera sobre los elementos de la lista y muestra las coordenadas de cada punto
         cout << "X: " << punto.getX() << ", Y: " << punto.getY() << endl;

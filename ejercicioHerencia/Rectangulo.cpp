@@ -11,15 +11,17 @@ using namespace std;
 
 double Rectangulo::calculaPerimetro() { // La función utiliza los puntos del rectángulo para calcular su base y altura.
     // Luego, el perímetro del rectángulo se calcula sumando dos veces la base y dos veces la altura.
-    list<Punto>::iterator it1 = getPuntos().begin();
+    list<Punto>::iterator it1 = puntos.begin();
     Punto primerPunto = *it1;
 
-    list<Punto>::iterator it2 = getPuntos().begin();
-    advance(it2, 1);
+    // Acceder al segundo punto de la lista utilizando otro iterador
+    list<Punto>::iterator it2 = puntos.begin();
+    advance(it2, 1); // Avanzar al segundo elemento (índice 1)
     Punto segundoPunto = *it2;
 
-    list<Punto>::iterator it3 = getPuntos().begin();
-    advance(it3, 2);
+    // Acceder al tercer punto de la lista utilizando un tercer iterador
+    list<Punto>::iterator it3 = puntos.begin();
+    advance(it3, 2); // Avanzar al tercer elemento (índice 2)
     Punto tercerPunto = *it3;
 
     double primerPuntoX = primerPunto.getX();
@@ -34,15 +36,17 @@ double Rectangulo::calculaPerimetro() { // La función utiliza los puntos del re
 }
 
 double Rectangulo::calculaArea() { // La función calcula el área utilizando los puntos que definen los vértices del rectángulo.
-    list<Punto>::iterator it1 = getPuntos().begin();
+    list<Punto>::iterator it1 = puntos.begin();
     Punto primerPunto = *it1;
 
-    list<Punto>::iterator it2 = getPuntos().begin();
-    advance(it2, 1);
+    // Acceder al segundo punto de la lista utilizando otro iterador
+    list<Punto>::iterator it2 = puntos.begin();
+    advance(it2, 1); // Avanzar al segundo elemento (índice 1)
     Punto segundoPunto = *it2;
 
-    list<Punto>::iterator it3 = getPuntos().begin();
-    advance(it3, 2);
+    // Acceder al tercer punto de la lista utilizando un tercer iterador
+    list<Punto>::iterator it3 = puntos.begin();
+    advance(it3, 2); // Avanzar al tercer elemento (índice 2)
     Punto tercerPunto = *it3;
 
     double primerPuntoX = primerPunto.getX();
@@ -58,7 +62,7 @@ double Rectangulo::calculaArea() { // La función calcula el área utilizando lo
 
 void Rectangulo::imprimeRectangulo() {
     imprimeFigura();
-    cout << "Rectángulo" << "\n";
-    cout << "Perímetro: " << calculaPerimetro() << "\n";
-    cout << "Área: " << calculaArea() << "\n";
+    cout << "Rectangulo" << "\n";
+    cout << "Perimetro: " << calculaPerimetro() << "\n";
+    cout << "Area: " << calculaArea() << "\n";
 }

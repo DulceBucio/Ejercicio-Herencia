@@ -14,15 +14,17 @@ using namespace std;
 
 double Triangulo::calculaPerimetro() { // La función utiliza los puntos del triángulo para calcular las longitudes
     // de cada uno de sus lados utilizando la fórmula de la distancia entre dos puntos en un plano
-    list<Punto>::iterator it1 = getPuntos().begin();
+    list<Punto>::iterator it1 = puntos.begin();
     Punto primerPunto = *it1;
 
-    list<Punto>::iterator it2 = getPuntos().begin();
-    advance(it2, 1);
+    // Acceder al segundo punto de la lista utilizando otro iterador
+    list<Punto>::iterator it2 = puntos.begin();
+    advance(it2, 1); // Avanzar al segundo elemento (índice 1)
     Punto segundoPunto = *it2;
 
-    list<Punto>::iterator it3 = getPuntos().begin();
-    advance(it3, 2);
+    // Acceder al tercer punto de la lista utilizando un tercer iterador
+    list<Punto>::iterator it3 = puntos.begin();
+    advance(it3, 2); // Avanzar al tercer elemento (índice 2)
     Punto tercerPunto = *it3;
 
     double primerPuntoX = primerPunto.getX();
@@ -36,21 +38,24 @@ double Triangulo::calculaPerimetro() { // La función utiliza los puntos del tri
     double lado2 = sqrt(pow(tercerPuntoX-primerPuntoX,2) + pow(tercerPuntoY-primerPuntoY,2));
     double lado3 = sqrt(pow(tercerPuntoX-segundoPuntoX,2) + pow(tercerPuntoY-segundoPuntoY,2));
 
-    cout << segundoPunto.getX();
+    cout << lado2;
     return lado1 + lado2 + lado3;
 }
 
 double Triangulo::calculaArea(){ // La función utiliza los puntos del triángulo para calcular su área utilizando la fórmula de la mitad del producto cruzado de dos vectores.
     // La fórmula tiene en cuenta las coordenadas x e y de los puntos para realizar el cálculo.
-    list<Punto>::iterator it1 = getPuntos().begin();
+
+    list<Punto>::iterator it1 = puntos.begin();
     Punto primerPunto = *it1;
 
-    list<Punto>::iterator it2 = getPuntos().begin();
-    advance(it2, 1);
+    // Acceder al segundo punto de la lista utilizando otro iterador
+    list<Punto>::iterator it2 = puntos.begin();
+    advance(it2, 1); // Avanzar al segundo elemento (índice 1)
     Punto segundoPunto = *it2;
 
-    list<Punto>::iterator it3 = getPuntos().begin();
-    advance(it3, 2);
+    // Acceder al tercer punto de la lista utilizando un tercer iterador
+    list<Punto>::iterator it3 = puntos.begin();
+    advance(it3, 2); // Avanzar al tercer elemento (índice 2)
     Punto tercerPunto = *it3;
 
     double primerPuntoX = primerPunto.getX();
@@ -66,7 +71,7 @@ double Triangulo::calculaArea(){ // La función utiliza los puntos del triángul
 
 void Triangulo::imprime(){
     imprimeFigura();
-    cout << "Triángulo" << "\n";
-    cout << "Perímetro: " << calculaPerimetro() << "\n";
-    cout << "Área: " << calculaArea() << "\n";
+    cout << "Triangulo" << "\n";
+    cout << "Perimetro: " << calculaPerimetro() << "\n";
+    cout << "Area: " << calculaArea() << "\n";
 }
