@@ -18,7 +18,7 @@ int main() {
     list<Punto> points {p1,p2,p3};
     Figura figura(3, "triangulo", points);
     Triangulo triangulo(figura);
-
+    triangulo.getPuntos();
 
     return 0;
 }

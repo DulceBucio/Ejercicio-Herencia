@@ -12,12 +12,11 @@
 #include <algorithm>
 
 
-void Figura::imprimeFigura() const {
-    list<Punto> puntosOrdenados(puntos);
-    // Comparador lambda, toma dos puntos 'p1' y 'p2' como parámetros y compara sus coordenadas x e y para determinar el orden
+void Figura::imprimeFigura() const { // Comparador lambda, toma dos puntos 'p1' y 'p2' como parámetros y compara sus coordenadas x e y para determinar el orden
     // Si el valor de x de p1 es > que el de p2, se considera que p1 es menor y se coloca antes en la lista
     // Si el valor de x de p1 es = al de p2, se compara el valor de y. Si el valor de y de p1 es > que el de p2, se considera
     // que p1 es menor y se coloca antes en la lista. Si ambos criterios son falsos, entonces p2 es < y se coloca antes en la lista
+    list<Punto> puntosOrdenados(puntos);
     puntosOrdenados.sort([](const Punto& p1, const Punto& p2) {
         return (p1.getX() > p2.getX()) || (p1.getX() == p2.getX() && p1.getY() > p2.getY());
     });
@@ -29,4 +28,3 @@ void Figura::imprimeFigura() const {
         cout << "X: " << punto.getX() << ", Y: " << punto.getY() << endl;
     }
 }
-

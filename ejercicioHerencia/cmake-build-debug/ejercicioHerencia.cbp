@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Ejercicio-Herencia/ejercicioHerencia/Circulo.cpp">
+			<Option target="ejercicioHerencia"/>
+		</Unit>
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Ejercicio-Herencia/ejercicioHerencia/Circulo.h">
+			<Option target="ejercicioHerencia"/>
+		</Unit>
 		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Ejercicio-Herencia/ejercicioHerencia/Figura.cpp">
 			<Option target="ejercicioHerencia"/>
 		</Unit>
@@ -94,6 +100,12 @@
 			<Option target="ejercicioHerencia"/>
 		</Unit>
 		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Ejercicio-Herencia/ejercicioHerencia/Punto.h">
+			<Option target="ejercicioHerencia"/>
+		</Unit>
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Ejercicio-Herencia/ejercicioHerencia/Rectangulo.cpp">
+			<Option target="ejercicioHerencia"/>
+		</Unit>
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Ejercicio-Herencia/ejercicioHerencia/Rectangulo.h">
 			<Option target="ejercicioHerencia"/>
 		</Unit>
 		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Ejercicio-Herencia/ejercicioHerencia/Triangulo.cpp">

@@ -124,12 +124,42 @@ CMakeFiles/ejercicioHerencia.dir/Triangulo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejercicioHerencia.dir/Triangulo.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\Triangulo.cpp" -o CMakeFiles\ejercicioHerencia.dir\Triangulo.cpp.s
 
+CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.obj: CMakeFiles/ejercicioHerencia.dir/flags.make
+CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.obj: ../Rectangulo.cpp
+CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.obj: CMakeFiles/ejercicioHerencia.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.obj -MF CMakeFiles\ejercicioHerencia.dir\Rectangulo.cpp.obj.d -o CMakeFiles\ejercicioHerencia.dir\Rectangulo.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\Rectangulo.cpp"
+
+CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\Rectangulo.cpp" > CMakeFiles\ejercicioHerencia.dir\Rectangulo.cpp.i
+
+CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\Rectangulo.cpp" -o CMakeFiles\ejercicioHerencia.dir\Rectangulo.cpp.s
+
+CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj: CMakeFiles/ejercicioHerencia.dir/flags.make
+CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj: ../Circulo.cpp
+CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj: CMakeFiles/ejercicioHerencia.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj -MF CMakeFiles\ejercicioHerencia.dir\Circulo.cpp.obj.d -o CMakeFiles\ejercicioHerencia.dir\Circulo.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\Circulo.cpp"
+
+CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\Circulo.cpp" > CMakeFiles\ejercicioHerencia.dir\Circulo.cpp.i
+
+CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\Circulo.cpp" -o CMakeFiles\ejercicioHerencia.dir\Circulo.cpp.s
+
 # Object files for target ejercicioHerencia
 ejercicioHerencia_OBJECTS = \
 "CMakeFiles/ejercicioHerencia.dir/main.cpp.obj" \
 "CMakeFiles/ejercicioHerencia.dir/Figura.cpp.obj" \
 "CMakeFiles/ejercicioHerencia.dir/Punto.cpp.obj" \
-"CMakeFiles/ejercicioHerencia.dir/Triangulo.cpp.obj"
+"CMakeFiles/ejercicioHerencia.dir/Triangulo.cpp.obj" \
+"CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.obj" \
+"CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj"
 
 # External object files for target ejercicioHerencia
 ejercicioHerencia_EXTERNAL_OBJECTS =
@@ -138,11 +168,13 @@ ejercicioHerencia.exe: CMakeFiles/ejercicioHerencia.dir/main.cpp.obj
 ejercicioHerencia.exe: CMakeFiles/ejercicioHerencia.dir/Figura.cpp.obj
 ejercicioHerencia.exe: CMakeFiles/ejercicioHerencia.dir/Punto.cpp.obj
 ejercicioHerencia.exe: CMakeFiles/ejercicioHerencia.dir/Triangulo.cpp.obj
+ejercicioHerencia.exe: CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.obj
+ejercicioHerencia.exe: CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj
 ejercicioHerencia.exe: CMakeFiles/ejercicioHerencia.dir/build.make
 ejercicioHerencia.exe: CMakeFiles/ejercicioHerencia.dir/linklibs.rsp
 ejercicioHerencia.exe: CMakeFiles/ejercicioHerencia.dir/objects1.rsp
 ejercicioHerencia.exe: CMakeFiles/ejercicioHerencia.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ejercicioHerencia.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ejercicioHerencia.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ejercicioHerencia.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -128,6 +128,30 @@ ejercicioHerencia/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicioHerencia.dir\build.make CMakeFiles/ejercicioHerencia.dir/build
 .PHONY : ejercicioHerencia/fast
 
+Circulo.obj: Circulo.cpp.obj
+.PHONY : Circulo.obj
+
+# target to build an object file
+Circulo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicioHerencia.dir\build.make CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj
+.PHONY : Circulo.cpp.obj
+
+Circulo.i: Circulo.cpp.i
+.PHONY : Circulo.i
+
+# target to preprocess a source file
+Circulo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicioHerencia.dir\build.make CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.i
+.PHONY : Circulo.cpp.i
+
+Circulo.s: Circulo.cpp.s
+.PHONY : Circulo.s
+
+# target to generate assembly for a file
+Circulo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicioHerencia.dir\build.make CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.s
+.PHONY : Circulo.cpp.s
+
 Figura.obj: Figura.cpp.obj
 .PHONY : Figura.obj
 
@@ -175,6 +199,30 @@ Punto.s: Punto.cpp.s
 Punto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicioHerencia.dir\build.make CMakeFiles/ejercicioHerencia.dir/Punto.cpp.s
 .PHONY : Punto.cpp.s
+
+Rectangulo.obj: Rectangulo.cpp.obj
+.PHONY : Rectangulo.obj
+
+# target to build an object file
+Rectangulo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicioHerencia.dir\build.make CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.obj
+.PHONY : Rectangulo.cpp.obj
+
+Rectangulo.i: Rectangulo.cpp.i
+.PHONY : Rectangulo.i
+
+# target to preprocess a source file
+Rectangulo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicioHerencia.dir\build.make CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.i
+.PHONY : Rectangulo.cpp.i
+
+Rectangulo.s: Rectangulo.cpp.s
+.PHONY : Rectangulo.s
+
+# target to generate assembly for a file
+Rectangulo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicioHerencia.dir\build.make CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.s
+.PHONY : Rectangulo.cpp.s
 
 Triangulo.obj: Triangulo.cpp.obj
 .PHONY : Triangulo.obj
@@ -233,12 +281,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ejercicioHerencia
+	@echo ... Circulo.obj
+	@echo ... Circulo.i
+	@echo ... Circulo.s
 	@echo ... Figura.obj
 	@echo ... Figura.i
 	@echo ... Figura.s
 	@echo ... Punto.obj
 	@echo ... Punto.i
 	@echo ... Punto.s
+	@echo ... Rectangulo.obj
+	@echo ... Rectangulo.i
+	@echo ... Rectangulo.s
 	@echo ... Triangulo.obj
 	@echo ... Triangulo.i
 	@echo ... Triangulo.s

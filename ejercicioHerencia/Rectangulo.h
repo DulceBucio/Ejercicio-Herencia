@@ -15,9 +15,11 @@ class Rectangulo:public Figura{
 public:
     Rectangulo() = default;
     Rectangulo(const Rectangulo &rectangulo) {};
-    ~Rectangulo();
-    void calculaArea();
-    void calculaPerimetro();
+    Rectangulo(const string& nombre, const list<Punto>& puntos) : Figura(4, nombre, puntos) {};
+    Rectangulo(const Figura &figura): Figura(figura.getNumPuntos(), figura.getNombre(), figura.getPuntos()) {};
+    ~Rectangulo() { };
+    double calculaArea();
+    double calculaPerimetro();
     void imprimeRectangulo();
 };
 

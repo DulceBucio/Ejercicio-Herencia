@@ -12,12 +12,56 @@
 using namespace std;
 
 
-double Triangulo::calculaPerimetro() {
+double Triangulo::calculaPerimetro() { // La función utiliza los puntos del triángulo para calcular las longitudes
+    // de cada uno de sus lados utilizando la fórmula de la distancia entre dos puntos en un plano
+    list<Punto>::iterator it1 = getPuntos().begin();
+    Punto primerPunto = *it1;
 
+    list<Punto>::iterator it2 = getPuntos().begin();
+    advance(it2, 1);
+    Punto segundoPunto = *it2;
+
+    list<Punto>::iterator it3 = getPuntos().begin();
+    advance(it3, 2);
+    Punto tercerPunto = *it3;
+
+    double primerPuntoX = primerPunto.getX();
+    double primerPuntoY = primerPunto.getY();
+    double segundoPuntoX = segundoPunto.getX();
+    double segundoPuntoY = segundoPunto.getY();
+    double tercerPuntoX = tercerPunto.getX();
+    double tercerPuntoY = tercerPunto.getY();
+
+    double lado1 = sqrt(pow(segundoPuntoX-primerPuntoX,2) + pow(segundoPuntoY-primerPuntoY,2));
+    double lado2 = sqrt(pow(tercerPuntoX-primerPuntoX,2) + pow(tercerPuntoY-primerPuntoY,2));
+    double lado3 = sqrt(pow(tercerPuntoX-segundoPuntoX,2) + pow(tercerPuntoY-segundoPuntoY,2));
+
+    cout << segundoPunto.getX();
+    return lado1 + lado2 + lado3;
 }
 
-double Triangulo::calculaArea(){
+double Triangulo::calculaArea(){ // La función utiliza los puntos del triángulo para calcular su área utilizando la fórmula de la mitad del producto cruzado de dos vectores.
+    // La fórmula tiene en cuenta las coordenadas x e y de los puntos para realizar el cálculo.
+    list<Punto>::iterator it1 = getPuntos().begin();
+    Punto primerPunto = *it1;
 
+    list<Punto>::iterator it2 = getPuntos().begin();
+    advance(it2, 1);
+    Punto segundoPunto = *it2;
+
+    list<Punto>::iterator it3 = getPuntos().begin();
+    advance(it3, 2);
+    Punto tercerPunto = *it3;
+
+    double primerPuntoX = primerPunto.getX();
+    double primerPuntoY = primerPunto.getY();
+    double segundoPuntoX = segundoPunto.getX();
+    double segundoPuntoY = segundoPunto.getY();
+    double tercerPuntoX = tercerPunto.getX();
+    double tercerPuntoY = tercerPunto.getY();
+
+    double area = (primerPuntoX*(tercerPuntoY-segundoPuntoY) + segundoPuntoX*(primerPuntoY-tercerPuntoY) + tercerPuntoX*(segundoPuntoY-primerPuntoY))/2;
+    return area;
 }
 
 void Triangulo::imprime(){

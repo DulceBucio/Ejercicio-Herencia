@@ -18,10 +18,10 @@ public:
     Triangulo(const Triangulo &triangulo) {};
     Triangulo(const string& nombre, const list<Punto>& puntos) : Figura(3, nombre, puntos) {};
     Triangulo(const Figura &figura): Figura(figura.getNumPuntos(), figura.getNombre(), figura.getPuntos()) {};
-    double calculaArea() ;
+    ~Triangulo() { };
+    double calculaArea();
     double calculaPerimetro();
     void imprime();
 };
-
 
 #endif //EJERCICIOHERENCIA_TRIANGULO_H

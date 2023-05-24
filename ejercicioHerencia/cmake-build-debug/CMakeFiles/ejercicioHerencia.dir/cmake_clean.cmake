@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj"
+  "CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj.d"
   "CMakeFiles/ejercicioHerencia.dir/Figura.cpp.obj"
   "CMakeFiles/ejercicioHerencia.dir/Figura.cpp.obj.d"
   "CMakeFiles/ejercicioHerencia.dir/Punto.cpp.obj"
   "CMakeFiles/ejercicioHerencia.dir/Punto.cpp.obj.d"
+  "CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.obj"
+  "CMakeFiles/ejercicioHerencia.dir/Rectangulo.cpp.obj.d"
   "CMakeFiles/ejercicioHerencia.dir/Triangulo.cpp.obj"
   "CMakeFiles/ejercicioHerencia.dir/Triangulo.cpp.obj.d"
   "CMakeFiles/ejercicioHerencia.dir/main.cpp.obj"

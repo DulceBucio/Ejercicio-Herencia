@@ -139,4 +139,6 @@ CMakeFiles/ejercicioHerencia.dir/Circulo.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
- C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\Punto.h
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Ejercicio-Herencia\ejercicioHerencia\Punto.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/math.h
